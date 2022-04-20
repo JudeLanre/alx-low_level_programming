@@ -1,45 +1,29 @@
-int _putchar(char c);
+#include <stdio.h>
 
 
 
-int _isupper(int c);
+void reset_to_98(int *);
 
 
 
-int _isdigit(int c);
+/**
+ *
+ *  * main - check the code for Holberton School students.
+ *
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 
+int main(void)
 
+{
+	int n;
 
-int mul(int a, int b);
-
-
-
-void print_numbers(void);
-
-
-
-void print_most_numbers(void);
-
-
-
-void more_numbers(void);
-
-
-
-void print_line(int n);
-
-
-
-void print_diagonal(int n);
-
-
-
-void print_square(int size);
-
-
-
-void print_triangle(int size);
-
-
-
-void print_number(int n);
+	n = 402;
+	printf("%d\n", n);
+	reset_to_98(&n);
+	printf("%d\n", n);
+	return (0);
+}
