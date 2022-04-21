@@ -23,6 +23,6 @@ void rev_string(char *s)
 		last = s[half];
 		s[half] = first;
 		s[size - half] = last;
-		half--;						
+		half--;
 	}
 }
