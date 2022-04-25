@@ -15,9 +15,9 @@ void print_number(int n)
 		m = n * -1;
 	}
 	else
-{
-	m = n;
-}
+	{
+		m = n;
+	}
 	
 	d = m;
 	count = 1;
